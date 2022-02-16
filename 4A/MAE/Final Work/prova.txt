@@ -1,0 +1,16 @@
+DTSim Data Transmission Simulator
+
+Aim of the project
+
+The aim of this project is to simulate a data transmission system following this scheme:
+My idea is to divide the system in 3 different GUI figures, one containing the transmission part (from source to the transmitter), another one containing the reception part (from the receiver to the destiny) and the last one simulating an attacker that has intercept the transmission and tries to decode it by use of brute force.
+Each figure will imply the utilization of several functions that allow them to encode the message (security) and the channel (BER minimization).
+
+I’ll also create an additional function which simulates a Gaussian noise channel.The main objective I have with this project is to test different encryptions and channel codes to see their performances in terms of security (avoiding the attacker to get the message in polynomial time) and reliability (reaching the destiny without reaching a maximum BER decided).
+
+Motivation
+
+I have always been interested in cryptography and cybersecurity. In 1st course of the degree, when I did FO (Computer fundaments), I learnt to program in C and also how did the ASCII table worked, so I made a very simple function that coded a text by adding X value in the ASCII table to each letter, so every letter changed. I knew it was not a pretty secure system, but that’s all I could do then.
+But now, in 4th course, I have taken two subjects that have motivated me to do this task. PTD (Data transmission protocols) that has provided me the mathematical fundaments behind cryptography and codification, and MAE which has given me the tools to do a better codifier and to apply the knowledge I have got from PTD and see the results practically.
+
+I have also to say that MATLAB is by far the best of the ways I know to do that because cryptography and codification are mainly based in mathematical algorithms.
